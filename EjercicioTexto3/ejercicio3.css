@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'GFS Didot';
+    src: url('//GFSDidot-Regular.eot');
+    src: url('GFSDidot-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../EjercicioTexto3/Fonts/GFSDidot-Regular.woff2') format('woff2'),
+        url('../EjercicioTexto3/Fonts/GFSDidot-Regular.woff') format('woff'),
+        url('../EjercicioTexto3/Fonts/GFSDidot-Regular.ttf') format('truetype'),
+        url('../EjercicioTexto3/Fonts/GFSDidot-Regular.svg#GFSDidot-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akronim';
+    src: url('Akronim-Regular.eot');
+    src: url('Akronim-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../EjercicioTexto3/Fonts/Akronim-Regular.woff2') format('woff2'),
+        url('../EjercicioTexto3/Fonts/Akronim-Regular.woff') format('woff'),
+        url('../EjercicioTexto3/Fonts/Akronim-Regular.ttf') format('truetype'),
+        url('../EjercicioTexto3/Fonts/Akronim-Regular.svg#Akronim-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+p:nth-of-type(1) {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p:nth-of-type(2) {
+    font-family: 'GFS Didot', serif;
+}
+p:nth-of-type(3) {
+    font-family: FreeMono, monospace;
+}
+p:nth-of-type(4) {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+p:nth-of-type(5) {
+    font-family: 'Akronim';
+    font-size: 24px;
+}
+p:nth-of-type(6) {
+    font-family: 'Montserrat', sans-serif;
+}
