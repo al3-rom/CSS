@@ -29,5 +29,5 @@ li {
 
 strong {
     font-weight: normal;
-    text-decoration: underline;
+    font-variant: small-caps;
 }
