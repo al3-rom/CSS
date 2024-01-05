@@ -21,6 +21,7 @@
 /*Ejercicio 2*/
 .cajas2 {
     border: 5px solid red;
+    padding-bottom: 50px;
 }
 
 .cajas2 .caja3 {
@@ -46,15 +47,18 @@
 
 /*Ejercicio 3*/
 .cajas3 .caja6 {
+    margin: 5px;
     border: 5px solid red;
 }
 
 .cajas3 .caja7 {
+    margin: 5px;
     border: 5px solid blue;
     padding: 25px;
 }
 
 .cajas3 .caja8 {
+    margin: 5px;
     border: 5px solid green;
     padding: 50px
 }
@@ -82,7 +86,7 @@
     border-bottom: 5px solid rgb(199, 33, 250);
     border-left: 5px solid rgb(0, 0, 0);
 }
-
+/*<!--Caja con diferentes tipos de bordes dentro de otra caja-->*/
 .cajas4 .caja11 {
     text-align: center;
     padding: 5px;
@@ -104,45 +108,13 @@
     border-bottom: 5px solid rgb(199, 33, 250);
     border-left: 5px solid rgb(0, 0, 0);
 }
-
-.cajas4 .caja13 .caja14 .caja15 .caja16 .caja17 .caja18 {
+/*   <!--Cajas dentro de otras cajas-->  */
+.cajas4 .caja13{
     text-align: center;
     padding: 5px;
 
     border: 3px solid black;
 }
 
-.cajas4 .caja13 .caja14 .caja15 .caja16 .caja17 {
-    text-align: center;
-    padding: 5px;
-    
-    border: 3px solid black;
-}
 
-.cajas4 .caja13 .caja14 .caja15 .caja16 {
-    text-align: center;
-    padding: 5px;
-    
-    border: 3px solid black;
-}
 
-.cajas4 .caja13 .caja14 .caja15 {
-    text-align: center;
-    padding: 5px;
-    
-    border: 3px solid black;
-}
-
-.cajas4 .caja13 .caja14 {
-    text-align: center;
-    padding: 5px;
-    
-    border: 3px solid black;
-}
-
-.cajas4 .caja13 {
-    text-align: center;
-    padding: 5px;
-    
-    border: 3px solid black;
-}
