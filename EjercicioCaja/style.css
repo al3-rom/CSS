@@ -1,0 +1,148 @@
+/*Ejercicio 1*/
+.cajas1 .caja1 {
+    width: 250px;
+    height: 200px;
+    border: 5px solid red;
+    background: gray;
+    padding: 10px;
+    margin: 25px;
+}
+
+.cajas1 .caja2 {
+    width: 300px;
+    height: 200px;
+    border: 7px solid green;
+    background: gray;
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+
+/*Ejercicio 2*/
+.cajas2 {
+    border: 5px solid red;
+}
+
+.cajas2 .caja3 {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 5px solid green;
+}
+
+.cajas2 .caja4 {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 50px;
+    border: 5px solid blue;
+}
+
+.cajas2 .caja5 {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 100px;
+    border: 5px solid yellow;
+}
+
+/*Ejercicio 3*/
+.cajas3 .caja6 {
+    border: 5px solid red;
+}
+
+.cajas3 .caja7 {
+    border: 5px solid blue;
+    padding: 25px;
+}
+
+.cajas3 .caja8 {
+    border: 5px solid green;
+    padding: 50px
+}
+
+/*Ejercicio 4*/
+
+.cajas4 .caja9 {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+
+    border-top: 5px dotted green;
+    border-right: 5px dashed yellow;
+    border-bottom: 5px dotted red;
+    border-left: 5px dashed blue;
+}
+
+.cajas4 .caja10 {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+
+    border-top: 5px solid rgb(24, 163, 197);
+    border-right: 5px solid rgb(0, 0, 0);
+    border-bottom: 5px solid rgb(199, 33, 250);
+    border-left: 5px solid rgb(0, 0, 0);
+}
+
+.cajas4 .caja11 {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+
+    border-top: 5px dotted green;
+    border-right: 5px dashed yellow;
+    border-bottom: 5px dotted red;
+    border-left: 5px dashed blue;
+}
+
+.cajas4 .caja11 .caja12 {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    
+    border-top: 5px solid rgb(24, 163, 197);
+    border-right: 5px solid rgb(0, 0, 0);
+    border-bottom: 5px solid rgb(199, 33, 250);
+    border-left: 5px solid rgb(0, 0, 0);
+}
+
+.cajas4 .caja13 .caja14 .caja15 .caja16 .caja17 .caja18 {
+    text-align: center;
+    padding: 5px;
+
+    border: 3px solid black;
+}
+
+.cajas4 .caja13 .caja14 .caja15 .caja16 .caja17 {
+    text-align: center;
+    padding: 5px;
+    
+    border: 3px solid black;
+}
+
+.cajas4 .caja13 .caja14 .caja15 .caja16 {
+    text-align: center;
+    padding: 5px;
+    
+    border: 3px solid black;
+}
+
+.cajas4 .caja13 .caja14 .caja15 {
+    text-align: center;
+    padding: 5px;
+    
+    border: 3px solid black;
+}
+
+.cajas4 .caja13 .caja14 {
+    text-align: center;
+    padding: 5px;
+    
+    border: 3px solid black;
+}
+
+.cajas4 .caja13 {
+    text-align: center;
+    padding: 5px;
+    
+    border: 3px solid black;
+}
