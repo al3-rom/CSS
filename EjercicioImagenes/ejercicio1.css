@@ -1,0 +1,88 @@
+.banderas {
+    background-color: #f3f3f3;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.banderas div {
+    margin: 20px;
+    width: 29%;
+    aspect-ratio: 1.4;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+div.colombia {
+    background-image: linear-gradient(yellow 33.3% , blue 33.3%, blue 66.6%, red 66.6%, red 100%);    
+}
+
+div.francia {
+    background-image: linear-gradient(to right, red 33.3%, white 33.3%, white 66.6%, blue 66.6%, blue 100%);
+}
+
+div.italia {
+    background-image: linear-gradient(to right, green 33.3%, white 33.3%, white 66.6%, red 66.6%, red 100%);
+}
+
+div.alemania {
+    color: white;
+    background-image: linear-gradient(rgb(0, 0, 0) 33.3% , red 33.3%, red 66.6%, yellow 66.6%, yellow 100%);    
+}
+
+div.japon {
+    background-image: radial-gradient(circle, red 33.3%, white 33.3%);
+}
+
+div.polonia {
+    background-image: linear-gradient( white 50%, red 50%);
+}
+
+
+.background {
+ border: 5px solid black;
+ border-radius: 10px;
+ padding: 20px 10px;
+ background-color: rgb(3, 154, 255);
+ background-image: url(./Foto/balloons.jpg);
+ background-repeat: no-repeat;
+ background-position: top right;
+ background-size: 100%;
+ width: 350px;
+}
+
+.background h2 {
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.background1 {
+    border: 5px solid rgb(28, 188, 216);
+    width: 150px;
+    border-radius: 35px 0px 35px 0px; /*!O se puede con: border-top-left-radius and border-bottom-right-radius !*/
+    padding: 30px;
+    background-image: url(./Foto/star.png), url(./Foto/star.png), url(./Foto/star.png), url(./Foto/star.png);
+    background-repeat: no-repeat;
+    background-position: 5px 50%, 100% 50%, 100% 25%, 100% 75%;
+    background-size: 30px, 30px, 30px, 30px;
+}
+
+.background1 h2 {
+    text-align: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paginate {
+    background-color: #d9cccc98;
+    border: 1px solid #d9ccccf0;
+    padding: 15px;
+}
+
+.paginate span:nth-of-type(2) {
+    float: right;
+}
+
