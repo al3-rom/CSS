@@ -1,0 +1,39 @@
+div {
+    border: 2px solid black;
+}
+
+div:first-of-type {
+    position: absolute;
+    background-color: yellow;
+    width: 400px;
+    height: 50px;
+    left: 30%;
+    top: 50%;
+}
+
+div:nth-of-type(2) {
+    position: absolute;
+    background-color: red;
+    width: 400px;
+    height: 50px;
+    left: 30%;
+    top: 20%;
+}
+
+div:nth-of-type(3) {
+    background-color: blue;
+    width: 100px;
+    height: 300px;
+    position: absolute;
+    left: 33%;
+    top: 12%;
+}
+
+div:last-of-type {
+    background-color: green;
+    width: 100px;
+    height: 300px;
+    position: absolute;
+    left: 54%;
+    top: 12%;
+}

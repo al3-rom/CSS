@@ -1,0 +1,29 @@
+body {
+    width: 800px;
+    height: 130px;
+    border: 2px solid black;
+    position: relative;
+}
+
+div {
+    border: 2px solid black;
+    margin: 5px;
+}
+div.logo {
+    width: 40%;
+    height: 50px;
+}
+
+div.top-menu {
+    width: 20%;
+    position: absolute;
+    right: 5px;
+    top: 3px;
+}
+
+div.menu {
+    width: 50%;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}

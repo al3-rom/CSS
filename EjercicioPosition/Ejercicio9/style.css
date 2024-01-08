@@ -1,0 +1,39 @@
+body {
+    width: 800px;
+    border: 2px solid black;
+    position: relative;
+}
+
+div {
+    margin: 5px;
+    border: 2px solid black;
+}
+
+div.title {
+    width: 96%;
+    height: 50px;
+
+    padding: 10px;
+    text-align: left;
+}
+
+div.sidebar {
+    width: 30%;
+    padding: 10px;
+    height: 300px;
+}
+
+div.main {
+    position: absolute;
+    display: inline-block;
+    width: 61%;
+    padding: 10px;
+    height: 200px;
+    left: 35%;
+    top: 17%;
+}
+
+div.footer {
+    width: 94.8%;
+    padding: 15px;
+}
