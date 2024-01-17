@@ -1,0 +1,72 @@
+section {
+    padding: 10px;
+    background: linear-gradient(to right, #E04E6E, #804ABC);
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+}
+
+[class^="box"]{
+    background-color: #F6C844;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 8px solid rgba(0, 0, 0, .1);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box8 {
+    background-color: #Ed6D52;
+    grid-column: span 2;
+}
+
+.box6 {
+    background-color: #6F94E6;
+    grid-column: 1 / span 6;
+    grid-row: 2 / span 1;
+}
+
+.box9 {
+    background-color: #AFF8A2;
+    grid-row: span 2;
+}
+
+.box12 {
+    background-color: #6F94E6;
+    grid-column: 1 / span 6;
+    grid-row: 3 / span 1;
+}
+
+.box16 {
+    background-color: #Ed6D52;
+    grid-column: span 2;
+}
+
+.box18 {
+    background-color: greenyellow;
+    grid-column: 5 / span 6;
+    grid-row: 4 / span 2;
+}
+
+.box24 {
+    background-color: #Ed6D52;
+    grid-column: span 2;
+}
+
+.box27 {
+    background-color: #AFF8A2;
+    grid-row: span 2;
+}
+
+.box30 {
+    background-color: #6F94E6;
+    grid-column: span 6;
+}
+
+.box32 {
+    background-color: #Ed6D52;
+    grid-column: span 2;
+}
