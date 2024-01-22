@@ -1,0 +1,31 @@
+
+section {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+section div a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(11, 164, 211);
+    display: inline-block;
+    padding: 15px;
+}
+
+section div a:hover {
+    background-color: black;
+    color: white;
+}
+
+section div a:hover span {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    margin: 5px;
+}
+
+section div a span {
+    display: none;
+}
