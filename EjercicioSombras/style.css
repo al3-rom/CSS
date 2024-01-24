@@ -1,0 +1,94 @@
+div.ejercicio1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(28, 222, 248);
+    font-size: 150px;
+    width: 500px;
+    padding: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    text-shadow: 3px 3px 5px gray;
+}
+
+div.ejercicio2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 232, 100);
+    font-size: 150px;
+    width: 500px;
+    padding: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    text-shadow: 6px 6px 1px gray;
+}
+
+div.ejercicio3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(28, 222, 248);
+    font-size: 150px;
+    width: 500px;
+    padding: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    text-shadow: -8px 8px 1px #5cadffe8, -15px 20px 1px #345a81e8, -20px 25px 1px #11161ce8;
+}
+
+div.ejercicio4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 232, 100);
+    font-size: 150px;
+    width: 500px;
+    padding: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    text-shadow: 0px 15px 5px gray;
+}
+
+div.ejercicio5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(43, 43, 43);
+    font-size: 150px;
+    width: 500px;
+    padding: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(27, 27, 27);
+    text-shadow: 1px 1px #393939, -1px -1px #1b1b1b;
+}
+
+div.ejercicio6 {
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(186, 181, 255);
+    font-size: 70px;
+    width: 600px;
+    padding: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: gray;
+    box-shadow: 5px 5px 5px gray, -5px -5px 5px gray;
+    text-align: center;
+}
+
+div.ejercicio7 {
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(186, 181, 255);
+    font-size: 70px;
+    width: 600px;
+    padding: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: gray;
+    box-shadow: 5px 5px 5px gray inset, -5px -5px 5px gray inset;
+    text-align: center;
+}
