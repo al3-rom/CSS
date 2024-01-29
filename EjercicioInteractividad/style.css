@@ -27,5 +27,5 @@ section div a:hover span {
 }
 
 section div a span {
-    display: none;
+    visibility: hidden;
 }
