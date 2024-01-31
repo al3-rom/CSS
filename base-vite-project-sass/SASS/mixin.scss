@@ -1,0 +1,19 @@
+@mixin breakpoint($bp) {
+    @if $bp == phone {
+        @media (min-width: $bp-phone) {
+            @content;
+        }
+    }
+
+    @if $bp == desktop {
+        @media (min-width: $bp-desktop) {
+            @content;
+        }
+    }
+
+    @if $bp == desktop-xl {
+        @media (min-width: $bp-desktop-xl) {
+            @content;
+        }
+    }
+}

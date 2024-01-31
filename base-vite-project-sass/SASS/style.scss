@@ -1,0 +1,28 @@
+@import './mixin.scss';
+@import './variables.scss';
+
+div {
+    width: 500px;
+    height: 300px;
+    background-color: aqua;
+    padding: 5px;
+    margin: 5px;
+}
+
+div.header {
+    background-color: black;
+    display: flex;
+    @include breakpoint(phone) {
+        background-color: blue;
+        justify-content: center;
+    }
+    @include breakpoint(desktop) {
+        background-color: rgb(255, 0, 0);
+        justify-content: left;
+    }
+    @include breakpoint(desktop-xl) {
+        background-color: rgb(255, 0, 76);
+        justify-content: right;
+    }
+}
+
